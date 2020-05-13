@@ -132,7 +132,6 @@
 /**/
 .card {
     border: 1px solid #E6E6E6;
-    max-width: 300px;
     padding: 20px;
 }
 
@@ -212,8 +211,31 @@
 }
 
 .card-bottom__desc {
-    color: #141414;
+    color: #616161;
     font-size: 14px;
+    margin-top: 30px;
+}
+
+.card-wrapper {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.img-wrapper__link {
+    text-decoration: none;
+    display: inline-block;
 }
 
 /*.section__features {*/
