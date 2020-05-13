@@ -18,6 +18,7 @@ body {
 .header__menu {
     background-color: #f3f3f3;
     width: 40px;
+    text-align: center;
     border-radius: 50%;
     height: 40px;
     display: inline-block;
@@ -25,10 +26,9 @@ body {
 }
 
 .header__menu i {
-   font-size: 25px;
+    font-size: 25px;
     color: #B9B9B9;
     line-height: 40px;
-    margin-left: 9px;
 }
 
 .header__link {
@@ -109,7 +109,6 @@ body {
     color: #000000;
     padding: 8px;
 }
-
 
 
 .nav-bar-nav li > i {
